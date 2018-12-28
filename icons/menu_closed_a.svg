@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu Closed</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Menu-Closed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <path d="M5,10 L25,10" id="Line-6" stroke="#D0D2D7" stroke-width="2"></path>
+        <path d="M5,20 L25,20" id="Line-6-Copy" stroke="#D0D2D7" stroke-width="2"></path>
+    </g>
+</svg>
