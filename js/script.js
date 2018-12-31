@@ -5,25 +5,27 @@ $(document).ready(function() {
 	// });
 
 	$( ".topmenu" ).on( "click", function() {
-    $( this ).toggleClass( "topmenu_open" );
-    $( ".biotext" ).toggleClass( "biotext_open" );
-    $( ".nametext" ).toggleClass( "nametext_open" );
-    $( ".topmenu_icon" ).toggleClass( "topmenu_icon_open" );
-    $( ".bottommenu_icon" ).toggleClass( "bottommenu_icon_open" );
+        $( this ).toggleClass( "topmenu_open" );
+        $( ".biotext" ).toggleClass( "biotext_open" );
+        $( ".nametext" ).toggleClass( "nametext_open" );
+        $( ".topmenu_icon" ).toggleClass( "topmenu_icon_open" );
+        $( ".bottommenu_icon" ).toggleClass( "bottommenu_icon_open" );
     });
 
 	$( "#button_b").on( "click", function() {
-    $( ".buttonB" ).toggleClass( "buttonB buttonB_on");
-    $( ".buttonA_on").toggleClass("buttonA_on buttonA");
-    $( ".info" ).toggleClass( "info info_open" );
-    $( ".projects").fadeOut();
+        $( ".buttonB" ).toggleClass( "buttonB buttonB_on");
+        $( ".buttonA_on").toggleClass("buttonA_on buttonA");
+        $( ".info" ).toggleClass( "info info_open" );
+        $( ".projects").fadeOut();
+        $( ".etc_and_footer").fadeOut();
     });
 
     $( "#button_a").on( "click", function() {
-    $( ".buttonA").toggleClass("buttonA buttonA_on");
-    $( ".buttonB_on" ).toggleClass( "buttonB_on buttonB");
-    $( ".info_open" ).toggleClass( "info info_open" );
-    $( ".projects").fadeIn();
+        $( ".buttonA").toggleClass("buttonA buttonA_on");
+        $( ".buttonB_on" ).toggleClass( "buttonB_on buttonB");
+        $( ".info_open" ).toggleClass( "info info_open" );
+        $( ".projects").fadeIn();
+        $( ".etc_and_footer").fadeIn();
     });
 
     $( "#button_e").on( "click", function() {
@@ -36,9 +38,18 @@ $(document).ready(function() {
         $( ".projects").fadeTo("1000", 0.0);
     });
 
-	$( ".project_splash" ).mousemove(function(){
-	$( this ).fadeOut();
-	});
+
+    $( "#button_h" ).mouseenter(function(){
+    $( ".project_nextProject" ).fadeIn( 400 );
+    });
+
+    $( "#button_h" ).mouseleave(function(){
+    $( ".project_nextProject" ).fadeOut();
+    });
+
+    // $( "#button_h" ).mouseover(function(){
+    //     $( ".project_nextProject" )fadeIn();
+    // });
 
     idleTimer = null;
     idleState = false;
